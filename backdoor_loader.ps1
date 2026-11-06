@@ -1,0 +1,1 @@
+Write-Output 'Simulated unauthorized payload staging'

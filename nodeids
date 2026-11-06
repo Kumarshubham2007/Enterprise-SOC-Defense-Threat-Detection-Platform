@@ -1,0 +1,22 @@
+[
+  "backend/tests/test_esmir_comprehensive.py::test_01_application_starts_successfully",
+  "backend/tests/test_esmir_comprehensive.py::test_02_database_initialization_and_seeds",
+  "backend/tests/test_esmir_comprehensive.py::test_03_authentication_and_authorization",
+  "backend/tests/test_esmir_comprehensive.py::test_04_invalid_event_payloads_rejected",
+  "backend/tests/test_esmir_comprehensive.py::test_05_valid_events_stored_and_retrievable",
+  "backend/tests/test_esmir_comprehensive.py::test_06_detection_rules_create_alerts_from_evidence",
+  "backend/tests/test_esmir_comprehensive.py::test_07_reprocessing_suppresses_duplicate_alerts",
+  "backend/tests/test_esmir_comprehensive.py::test_08_fim_baseline_creation",
+  "backend/tests/test_esmir_comprehensive.py::test_09_fim_file_modification_detected",
+  "backend/tests/test_esmir_comprehensive.py::test_10_fim_file_addition_and_deletion_detected",
+  "backend/tests/test_esmir_comprehensive.py::test_11_fim_reconciliation_verifies_state",
+  "backend/tests/test_esmir_comprehensive.py::test_12_authorized_baseline_updates",
+  "backend/tests/test_esmir_comprehensive.py::test_13_sensitive_data_patterns_detected",
+  "backend/tests/test_esmir_comprehensive.py::test_14_sensitive_values_are_masked",
+  "backend/tests/test_esmir_comprehensive.py::test_15_incident_creation_and_status_changes_persist",
+  "backend/tests/test_esmir_comprehensive.py::test_16_audit_trail_created_and_verified",
+  "backend/tests/test_esmir_comprehensive.py::test_17_reports_filtered_and_exported",
+  "backend/tests/test_esmir_comprehensive.py::test_18_path_traversal_and_unauthorized_access_rejected",
+  "backend/tests/test_esmir_comprehensive.py::test_19_unsupported_or_malformed_files_fail_safely",
+  "backend/tests/test_esmir_comprehensive.py::test_20_empty_database_and_diagnostics_handled"
+]

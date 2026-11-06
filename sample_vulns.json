@@ -1,0 +1,29 @@
+[
+  {
+    "cve_id": "CVE-2024-3094",
+    "title": "XZ Utils Backdoor Remote Authentication Bypass",
+    "severity": "Critical",
+    "affected_software": "liblzma 5.6.0",
+    "evidence": "Observed liblzma-5.6.0 installed on target host.",
+    "remediation": "Immediately downgrade liblzma to 5.4.6 or vendor-patched downstream release.",
+    "source": "Package Advisory Matcher"
+  },
+  {
+    "cve_id": "CVE-2024-6387",
+    "title": "OpenSSH Server RegreSSHion Remote Code Execution",
+    "severity": "High",
+    "affected_software": "OpenSSH 9.3p1",
+    "evidence": "sshd daemon running version 9.3p1 on port 22.",
+    "remediation": "Upgrade OpenSSH to 9.8p1 or set LoginGraceTime 0 in sshd_config.",
+    "source": "OpenVAS Import"
+  },
+  {
+    "cve_id": "SEC-CFG-SMB-01",
+    "title": "Legacy SMBv1 Protocol Active",
+    "severity": "Medium",
+    "affected_software": "Windows SMB Server",
+    "evidence": "SMBv1 server registry key configured to 1 (Enabled).",
+    "remediation": "Disable SMBv1 via PowerShell: Set-SmbServerConfiguration -EnableSMB1Protocol $false.",
+    "source": "Local Baseline Auditor"
+  }
+]

